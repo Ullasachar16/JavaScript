@@ -1,5 +1,5 @@
 a();
-b();
+
 
 //Function Statement
 function a(){
@@ -9,3 +9,4 @@ function a(){
 var b=function (){
     console.log("b called");
 }
+b();
