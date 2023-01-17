@@ -6,6 +6,6 @@ function a(){
     console.log("a called");
 }
 //Function Expression
-var b=function x(){
+var b=function (){
     console.log("b called");
 }
