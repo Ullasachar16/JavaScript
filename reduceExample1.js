@@ -13,3 +13,14 @@ function findMax(arr){
 }
 console.log(findMax(arr));
 
+//by using reduce[]
+
+const output=arr.reduce(function(max,curr){
+    if(curr>max){
+        max=curr;
+    }
+    return max;
+},0);
+
+console.log(output);
+
