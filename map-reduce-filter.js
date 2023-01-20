@@ -5,7 +5,7 @@ const users=[
     {firstName:"maanasa",lastName:"choudhary",age:23},
 ];
 
-const output1=users.map((x)=>x.firstName+""+x.lastName);
+const output1=users.map((x)=>x.firstName+" "+x.lastName);
 console.log(output1);
 
 const output2=users.reduce(function(acc,curr){
