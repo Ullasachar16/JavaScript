@@ -1,6 +1,6 @@
 const users=[
     {firstName:"ullas",lastName:"achar",age:23},
-    {firstName:"akshay",lastName:"saini",age:26},
+    {firstName:"akshay",lastName:"saini",age:36},
     {firstName:"elon",lastName:"musk",age:50},
     {firstName:"maanasa",lastName:"choudhary",age:23},
 ];
