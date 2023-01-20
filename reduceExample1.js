@@ -1,15 +1,15 @@
-const array=[5,1,3,2,6];
+const arr=[5,1,3,2,6];
 //find max
 //normal way
 
-function findMax(array){
+function findMax(arr){
     let max=0;
-    for(let i=0;i<=array.length;i++){
-        if(array[i]>max){
-            max=array[i];
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]>max){
+            max=arr[i];
         }
-        return max;
     }
+    return max;
 }
-console.log(findMax(array));
+console.log(findMax(arr));
 
