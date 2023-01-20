@@ -4,15 +4,7 @@ function isOdd(x){
     return x%2;
 }
 
-function isEven(x){
-    return x%2===0;
-}
- 
-function greaterthan4(x){
-    return x > 4;
-}
- 
-const output=arr.filter(isEven);
+const output=arr.filter(isOdd);
 console.log(output);
 
 const output1=arr.filter(function isEven(x){
