@@ -21,5 +21,3 @@ Array.prototype.calculate=function (logic){
 
 console.log(radius.map(area));
 console.log(radius.calculate(area));
-
-console.log(calculate(radius,area));
