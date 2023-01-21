@@ -1,8 +1,15 @@
 let name={
     firstname: "Akshay",
     lastname: "Saini",
-    printFullName: function (){
-        console.log(this.firstname+" "+this.lastname);
-    }
 }
-name.printFullName();
+let printFullName= function (hometown){
+    console.log(this.firstname+" "+this.lastname+ " from "+hometown);
+}
+printFullName.call(name,"Dehradun");
+
+let name1={
+    firstname: "Sachin",
+    lastname: "Tendulkar",
+}
+
+printFullName.call(name1,"Mumbai");
