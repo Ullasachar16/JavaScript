@@ -2,11 +2,11 @@ let name={
     firstname: "Akshay",
     lastname: "Saini"
 }
-let printName= function (hometown){
-    console.log(this.firstname+" "+this.lastname+" ,"+hometown);
+let printName= function (hometown,state){
+    console.log(this.firstname+" "+this.lastname+" ,"+hometown+" , "+state);
 }
 let printMyName = printName.bind(name,"Dehradun");
-printMyName();
+printMyName("Uttarakhand");
 
 Function.prototype.mybind=function(...args){
     let obj=this;
@@ -17,4 +17,4 @@ Function.prototype.mybind=function(...args){
 }
 
 let printMyName1 = printName.mybind(name,"Dehradun");
-printMyName1();
+printMyName1("Uttarakhand");
