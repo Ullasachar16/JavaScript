@@ -2,11 +2,11 @@ let name={
     firstname: "Akshay",
     lastname: "Saini"
 }
-let printName= function (hometown,state,country){
-    console.log(this.firstname+" "+this.lastname+" ,"+hometown+" , "+state+" , "+country);
+let printName= function (hometown,state,country,continent){
+    console.log(this.firstname+" "+this.lastname+" ,"+hometown+" , "+state+" , "+country+" , "+continent);
 }
 let printMyName = printName.bind(name,"Dehradun","Uttarakhand");
-printMyName("India");
+printMyName("India","Asia");
 
 Function.prototype.mybind=function(...args){
     let obj=this;
@@ -17,4 +17,4 @@ Function.prototype.mybind=function(...args){
 }
 
 let printMyName1 = printName.mybind(name,"Dehradun","Uttarakhand");
-printMyName1("India");
+printMyName1("India","Asia");
