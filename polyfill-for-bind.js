@@ -10,8 +10,9 @@ printMyName();
 
 Function.prototype.mybind=function(...args){
     let obj=this;
+    params=args.slice(1);
     return function(){
-        obj.call(args[0]);
+        obj.call(args[0],params);
     }
 }
 
