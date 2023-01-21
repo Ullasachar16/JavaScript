@@ -12,4 +12,13 @@ let name1={
     lastname: "Tendulkar",
 }
 
+//function borrowing
 printFullName.call(name1,"Mumbai","Maharashtra");
+
+//apply method
+printFullName.apply(name1,["Mumbai","Maharashtra"]);
+
+//bind method
+let printMyName=printFullName.bind(name1,"Mumbai","Maharashtra");
+console.log(printMyName);
+printMyName();
