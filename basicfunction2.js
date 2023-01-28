@@ -13,4 +13,4 @@ function getMilk(money){
     console.log("move left");
     console.log("enter house");
 }
-getMilk(2);
+getMilk(4);
