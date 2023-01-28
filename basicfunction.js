@@ -1,15 +1,25 @@
 function getMilk(){
-    console.log("leavehouse");
-    console.log("move right");
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
     console.log("moveUp");
-    console.log("move right");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
     console.log("enter store");
     console.log("buy milk");
     console.log("exit store");
-    console.log("move left");
-    console.log("move down");
-    console.log("move left");
-    console.log("enter house");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
 }
 getMilk();
 
