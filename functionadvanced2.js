@@ -21,4 +21,4 @@ function calcChange(startingAmount, costPerBottle) {
     var change=startingAmount % costPerBottle;
     return change;
 }
-console.log("Hello master, here is your "+getMilk(5,2.5)+" change");
+console.log("Hello master, here is your "+getMilk(5,1.5)+" change");
