@@ -2,19 +2,19 @@ function isLeapYear(year) {
     if (year % 4 === 0) {
       if (year % 100 === 0) {
         if (year % 400 === 0) {
-          return true;
+          return "Leap year";
         } else {
-          return false;
+          return "Not leap year";
         }
       } else {
-        return true;
+        return "Leap year";
       }
     } else {
-      return false;
+      return "Not leap year";
     }
   }
   
-  console.log(isLeapYear(2000)); // true
-  console.log(isLeapYear(1900)); // false
-  console.log(isLeapYear(2004)); // true
+  console.log(isLeapYear(2000)); 
+  console.log(isLeapYear(1900)); 
+  console.log(isLeapYear(2004)); 
   
