@@ -4,6 +4,6 @@ var name=prompt("Enter your name!!!");
 if(guestList.includes(name)){
     alert("Welcome!!!");
 }else{
-    alert("Sorry next time");
+    alert("Sorry ,maybe next time");
 }
 
