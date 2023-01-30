@@ -15,3 +15,4 @@ function fizzbuzz(){
     console.log(output);
 }
 }
+console.log(fizzbuzz());
