@@ -1,14 +1,18 @@
-function fibonacci(n) {
-    if (n <= 0) return [];
-    if (n === 1) return [0];
-    var fib = [0, 1];
-    for (var i = 2; i < n; i++) {
-      fib[i] = fib[i - 1] + fib[i - 2];
+function fibonacciGenerator(n){
+    var output=[];
+    if(n === 1){
+        output = [0];
     }
-    return fib;
-  }
-  
-  var n = prompt("Enter the number of terms of the Fibonacci sequence you want to generate:");
-  var result = fibonacci(n);
-  alert("The first " + n + " terms in the Fibonacci sequence are: " + result);
-  
+    else if(n === 2){
+        output = [0, 1];
+    }
+    else{
+        output = [0, 1];
+        for(var i = 2; i < n ; i++){
+            output.push(output[output.length-2]+output[output.length-1]);
+        }
+    }
+    return output;
+}
+output = fibonacciGenerator(1);
+console.log(output);
