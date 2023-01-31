@@ -9,4 +9,5 @@ while (numberOfBottles >= 0) {
     console.log("Take one down, pass it around,");
 	numberOfBottles--;
     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+    console.log("*****************************************");
 }
