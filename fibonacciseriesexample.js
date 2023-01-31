@@ -10,5 +10,5 @@ function fibonacci(n) {
   
   var n = prompt("Enter the number of terms of the Fibonacci sequence you want to generate:");
   var result = fibonacci(n);
-  console.log("The first " + n + " terms in the Fibonacci sequence are: " + result);
+  alert("The first " + n + " terms in the Fibonacci sequence are: " + result);
   
