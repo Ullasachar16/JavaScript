@@ -12,6 +12,8 @@ while (numberOfBottles > 0) {
     console.log("*****************************************");
 }
 if (numberOfBottles === 0) {
-console.log("No more bottles of beer on the wall,\nno more bottles of beer.");
-console.log("Go to store and buy some more,\n99 bottles of beer on the wall.");
+console.log("No more bottles of beer on the wall,");
+console.log("no more bottles of beer.")
+console.log("Go to store and buy some more,");
+console.log("99 bottles of beer on the wall.")
 }
